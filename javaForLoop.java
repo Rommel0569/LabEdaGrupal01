@@ -14,5 +14,11 @@ public class javaForLoop {
                 System.out.println(" Inner: " + j); //Se ejecuta 6 veces (2*3)
             }
         }
+
+        //Bucle for-each
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String i : cars) {
+            System.out.println(i);
+        }
     }
 }
